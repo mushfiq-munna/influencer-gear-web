@@ -102,13 +102,15 @@ button .fa-arrow-right {
 
 /* ---------sponsor---------- */
 
-.sponsor-img {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
+.sponsor-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1080px;
   height: 104px;
   margin: 65px 155px;
-  border: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   border-image: linear-gradient(
       to right,
       rgba(192, 204, 218, 0.1),
@@ -116,6 +118,14 @@ button .fa-arrow-right {
       rgba(192, 204, 218, 0.1)
     )
     1;
+}
+
+.sponsor-img {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 50px;
+  justify-items: center;
+  padding: 0 50px;
 }
 
 .sponsor-img div {
@@ -148,6 +158,8 @@ button .fa-arrow-right {
 .product {
   padding: 10px;
   background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px #ffffff, -5px -5px 10px #e7e7e7;
 }
 
 .product img {
