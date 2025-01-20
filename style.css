@@ -361,6 +361,7 @@ footer div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    gap: 29px;
     padding: 0;
     width: 260px;
   }
