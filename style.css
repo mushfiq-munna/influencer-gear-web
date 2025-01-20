@@ -354,7 +354,7 @@ footer div {
     justify-content: center;
     width: 100%;
     /* height: 57px; */
-    margin: 40px;
+    margin: 40px auto;
   }
 
   .sponsor-img {
@@ -371,7 +371,7 @@ footer div {
 
   .popular-collection {
     width: 311px;
-    margin: 0 13px;
+    margin: 0 auto;
   }
 
   .popular-collection h3 {
