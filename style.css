@@ -368,4 +368,17 @@ footer div {
   .sponsor-img div img {
     width: 48px;
   }
+
+  .popular-collection {
+    width: 311px;
+    margin: 0 13px;
+  }
+
+  .popular-collection h3 {
+    font-size: 13px;
+  }
+
+  .product-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
