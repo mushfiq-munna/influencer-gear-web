@@ -381,4 +381,33 @@ footer div {
   .product-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .product-featured {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+    margin: 0 13px 94px 13px;
+  }
+
+  .product-featured img {
+    width: 283px;
+  }
+
+  .feature-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature-details h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-details p {
+    font-size: 13px;
+    text-align: center;
+  }
 }
