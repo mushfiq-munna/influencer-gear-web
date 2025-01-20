@@ -285,3 +285,66 @@ footer div {
 .footer-link li a {
   color: #ffffff;
 }
+
+/* ----------responsive style----------- */
+
+@media screen and (max-width: 576.98px) {
+  .nav-bar {
+    margin: 33px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .font-logo {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .nav-link > .home,
+  .products,
+  .sign-up,
+  .log-in,
+  .search {
+    display: none;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    gap: 28px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .banner-text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 382px;
+    height: 210px;
+    padding: 20px;
+  }
+
+  .banner-img-holder {
+    width: 243px;
+    height: 243px;
+  }
+
+  .banner-img-holder img {
+    width: 191px;
+  }
+
+  .banner-text-holder h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .banner-text-holder p {
+    margin: 0.9rem 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+  }
+}
