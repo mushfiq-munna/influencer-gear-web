@@ -309,6 +309,7 @@ footer div {
     display: none;
   }
 
+  /* -----------------Banner Responsive-------------- */
   .banner {
     flex-direction: column-reverse;
     gap: 28px;
@@ -346,5 +347,25 @@ footer div {
     font-size: 0.8rem;
     font-weight: 600;
     text-align: center;
+  }
+
+  .sponsor-img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 57px; */
+    margin: 40px;
+  }
+
+  .sponsor-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 0;
+    width: 260px;
+  }
+
+  .sponsor-img div img {
+    width: 48px;
   }
 }
